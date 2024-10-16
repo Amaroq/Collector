@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  collector-core:
+    build: .
+    ports:
+      - 8080:8080
+    volumes:
+      -file_db:/db/
+      -file_data:/data/
+
+volumes:
+  file_db:
+  file_data:

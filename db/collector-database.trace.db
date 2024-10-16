@@ -1,0 +1,357 @@
+2024-10-14 16:35:39.683516+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-14 16:35:39.693250+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-14 16:35:39.698949+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-14 16:35:39.703191+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-14 16:35:39.705865+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-14 16:35:39.709974+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-14 16:35:39.714302+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-14 16:36:36.935060+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-14 16:36:36.939576+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-14 16:36:36.943751+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-14 16:36:36.945633+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-14 16:36:36.946976+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-14 16:36:36.948598+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-14 16:36:36.949602+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-14 16:37:23.559333+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-14 16:37:23.564229+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:23.569463+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:23.571558+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:23.573033+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:23.574695+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-14 16:37:23.576151+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-14 16:37:50.724207+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-14 16:37:50.731713+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:50.741241+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:50.746897+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:50.749669+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-14 16:37:50.752661+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-14 16:37:50.754784+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:20:10.971849+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:20:10.976485+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:10.980978+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:10.983010+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:10.984420+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:10.986101+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:20:10.987162+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:20:22.379477+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:20:22.383843+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:22.388059+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:22.389941+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:22.391334+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:22.393226+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:20:22.394361+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:20:49.623080+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:20:49.627973+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:49.632667+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:49.634994+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:49.636556+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:20:49.638535+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:20:49.639648+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:21:18.198562+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:21:18.202911+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:18.207200+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:18.209036+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:18.210306+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:18.211884+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:21:18.212877+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:21:37.448362+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:21:37.452711+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:37.456941+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:37.458851+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:37.460247+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:37.461898+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:21:37.462893+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:21:53.159974+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:21:53.164293+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:53.168457+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:53.170322+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:53.171638+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:21:53.173203+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:21:53.174222+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:22:13.405200+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:22:13.409718+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:22:13.414021+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:22:13.415950+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:22:13.417273+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:22:13.418901+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:22:13.419900+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:23:00.779090+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:23:00.783824+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:00.788177+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:00.790079+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:00.791348+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:00.793010+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:23:00.794003+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:23:33.708848+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:23:33.713253+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:33.719981+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:33.721946+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:33.723321+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:33.724979+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:23:33.726086+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:23:53.506219+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:23:53.510619+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:53.514815+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:53.516634+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:53.517945+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:23:53.519524+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:23:53.520513+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:25:22.872358+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:25:22.878392+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:22.883570+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:22.885551+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:22.886869+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:22.888450+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:25:22.889460+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:25:54.865270+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:25:54.869254+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:54.872951+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:54.874546+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:54.875788+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:25:54.877174+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:25:54.877986+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
+2024-10-16 10:26:01.045319+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255), last_username_change date, password varchar(255), username varchar(255), primary key (id)) [42001-224]
+2024-10-16 10:26:01.050157+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists box add constraint FKayjvkl7lmino5eeknc67wa52u foreign key (user_id) references user [42001-224]
+2024-10-16 10:26:01.054423+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists material add constraint FKnn0csbrvibcsjwqd5vmvhao32 foreign key (user_id) references user [42001-224]
+2024-10-16 10:26:01.056325+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists miniature add constraint FKjh5wwh8kpxiqaibeiltk1nyax foreign key (user_id) references user [42001-224]
+2024-10-16 10:26:01.057637+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists project add constraint FKo06v2e9kuapcugnyhttqa1vpt foreign key (user_id) references user [42001-224]
+2024-10-16 10:26:01.059403+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_categories add constraint FK8n6tkyl7pqb5go8yy4ytr0u5b foreign key (users_id) references user [42001-224]
+2024-10-16 10:26:01.060583+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_labels add constraint FKmoibrys4oyknkuj7myhswyry5 foreign key (users_id) references user [42001-224]
